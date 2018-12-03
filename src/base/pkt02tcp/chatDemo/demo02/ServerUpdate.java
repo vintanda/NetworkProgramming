@@ -87,7 +87,7 @@ public class ServerUpdate {
 
         }
 
-        // 发送数据 --- 发给别人
+        // 发送数据 --- 发给其余所有人
         public void sendToOthers(String msg) {
             if (null == msg || "".equals(msg)) {
                 return;
