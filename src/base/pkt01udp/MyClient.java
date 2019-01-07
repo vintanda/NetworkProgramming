@@ -24,7 +24,7 @@ public class MyClient {
         DatagramSocket client = new DatagramSocket(8888);
 
         // 2.准备数据
-//        String msg = "udp编程练习, dxm是大笨蛋!!";
+//        String msg = "udp编程练习";
 
         double msg = 12.19;
         byte[] data = convert(msg);
